@@ -1,6 +1,6 @@
 # [filesystem](#filesystem)
 
-Install and configure filesystem on your system.
+Make filesystems.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
@@ -19,12 +19,12 @@ This example is taken from `molecule/resources/converge.yml` and is tested on ea
   roles:
     - role: robertdebock.filesystem
       filesystem_list:
-        - dev: disk1
+        - dev: disk_1
           fstype: ext4
-        - dev: disk2
+        - dev: disk_2
           fstype: ext3
           opts: -cc
-        - dev: disk3
+        - dev: disk_3
           state: absent
 ```
 
@@ -45,9 +45,9 @@ The machine needs to be prepared in CI this is done using `molecule/resources/pr
       args:
         creates: "{{ item }}"
       loop:
-        - disk1
-        - disk2
-        - disk3
+        - disk_1
+        - disk_2
+        - disk_3
 ```
 
 Also see a [full explanation and example](https://robertdebock.nl/how-to-use-these-roles.html) on how to use these roles.

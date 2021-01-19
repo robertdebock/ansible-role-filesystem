@@ -2,7 +2,7 @@
 galaxy_info:
   author: Robert de Bock
   role_name: filesystem
-  description: Install and configure filesystem on your system.
+  description: Make filesystems.
   license: Apache-2.0
   company: none
   min_ansible_version: 2.9

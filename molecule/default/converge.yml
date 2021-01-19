@@ -7,10 +7,10 @@
   roles:
     - role: ansible-role-filesystem
       filesystem_list:
-        - dev: disk1
+        - dev: disk_1
           fstype: ext4
-        - dev: disk2
+        - dev: disk_2
           fstype: ext3
           opts: -cc
-        - dev: disk3
+        - dev: disk_3
           state: absent

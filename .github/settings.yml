@@ -3,6 +3,6 @@
 # Ansible managed
 #
 repository:
-  description: Install and configure filesystem on your system.
+  description: Make filesystems.
   homepage: https://robertdebock.nl/
   topics: filesystem, ansible, molecule, tox, playbook, hacktoberfest

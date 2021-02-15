@@ -4,7 +4,7 @@ Make filesystems.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/robertdebock/ansible-role-filesystem/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-filesystem/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-filesystem/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-filesystem)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/robertdebock/filesystem)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/robertdebock/filesystem)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-filesystem.svg)](https://github.com/robertdebock/ansible-role-filesystem/releases/)|
+|[![github](https://github.com/robertdebock/ansible-role-filesystem/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-filesystem/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-filesystem/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-filesystem)|[![quality](https://img.shields.io/ansible/quality/52776)](https://galaxy.ansible.com/robertdebock/filesystem)|[![downloads](https://img.shields.io/ansible/role/d/52776)](https://galaxy.ansible.com/robertdebock/filesystem)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-filesystem.svg)](https://github.com/robertdebock/ansible-role-filesystem/releases/)|
 
 ## [Example Playbook](#example-playbook)
 

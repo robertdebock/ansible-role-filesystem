@@ -7,7 +7,7 @@
   delegate_to: localhost
 
 - name: install requirements
-  package:
+  ansible.builtin.package:
     name: "{{ filesystem_requirements }}"
     state: present
 

@@ -93,4 +93,4 @@
     label: "{{ item.dev }}"
   when:
     - item.resizefs is defined
-    - item.resizefs | bool
+    - item.resizefs is boolean

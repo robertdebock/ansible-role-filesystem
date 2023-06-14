@@ -75,8 +75,7 @@
     quiet: yes
   loop: "{{ filesystem_list }}"
   loop_control:
-    label:
-      label: "{{ item.dev }}"
+    label: "{{ item.dev }}"
   when:
     - item.opts is defined
 

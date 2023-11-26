@@ -1,4 +1,4 @@
-# Ansible role [filesystem](#filesystem)
+# [Ansible role filesystem](#filesystem)
 
 Make filesystems.
 

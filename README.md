@@ -18,7 +18,7 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
   gather_facts: true
 
   roles:
-    - role: robertdebock.filesystem
+    - role: ansible-role-filesystem
       filesystem_list:
         - dev: disk_1
           fstype: ext4

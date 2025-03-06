@@ -5,7 +5,7 @@
   gather_facts: true
 
   roles:
-    - role: ansible-role-filesystem
+    - role: robertdebock.filesystem
       filesystem_list:
         - dev: disk_1
           fstype: ext4
